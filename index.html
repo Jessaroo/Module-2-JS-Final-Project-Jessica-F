@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Game Store</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for cart icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <h1>Video Game Store</h1>
+    <div id="cart-icon" class="cart-icon-container">
+      <i class="fas fa-shopping-cart"></i>
+      <span id="cart-count">0</span>
+      <div id="cart-dropdown" class="hidden">
+        <div id="cart-container"></div>
+        <p id="total-price"></p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="game-container"></div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
